@@ -1,10 +1,7 @@
-from pkgutil import get_data
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import os
-
-from sympy import div
 
 class linkedin_jobs:
     def __init__(self,keyword, location, pg_num = 0,position = 1):
